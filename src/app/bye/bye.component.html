@@ -1,0 +1,3 @@
+<p>{{variable}}</p>
+<p>Vous avez tapé {{n}} sur 140 caractères, il en reste {{140-n}}</p>
+<input type="text" [(ngModel)]="variable" (input)="compte($event)">
